@@ -29,4 +29,8 @@ include_directories(
         ${dynamic_reconfigure_INCLUDE_DIRS}
 )
 
+install(FILES ros_bridge_mapping.yaml
+        DESTINATION share/${PROJECT_NAME}
+)
+
 ament_package()

@@ -15,4 +15,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	DEPENDENCIES std_msgs builtin_interfaces
 )
 
+install(FILES ros_bridge_mapping.yaml
+        DESTINATION share/${PROJECT_NAME}
+)
+
 ament_package()
