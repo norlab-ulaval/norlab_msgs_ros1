@@ -5,6 +5,7 @@ float32 pack_current
 
 int8 state
 int8 main_fault_reg
+int8 soc
 int64 remaining_capacity
 
 float32 min_temp
